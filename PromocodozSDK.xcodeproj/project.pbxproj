@@ -10,6 +10,13 @@
 		678BEE281E3B1C8800BCB7E8 /* PromocodozSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678BEE1E1E3B1C8800BCB7E8 /* PromocodozSDK.framework */; };
 		678BEE2D1E3B1C8800BCB7E8 /* PromocodozSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE2C1E3B1C8800BCB7E8 /* PromocodozSDKTests.swift */; };
 		678BEE2F1E3B1C8800BCB7E8 /* PromocodozSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 678BEE211E3B1C8800BCB7E8 /* PromocodozSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		678BEE391E3B1CF500BCB7E8 /* Promocodoz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE381E3B1CF500BCB7E8 /* Promocodoz.swift */; };
+		678BEE3C1E3B1DB200BCB7E8 /* PromocodozConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE3B1E3B1DB200BCB7E8 /* PromocodozConfig.swift */; };
+		678BEE3E1E3B202F00BCB7E8 /* ReservePromocodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE3D1E3B202F00BCB7E8 /* ReservePromocodeRequest.swift */; };
+		678BEE401E3B247C00BCB7E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE3F1E3B247C00BCB7E8 /* Constants.swift */; };
+		678BEE421E3B2BB400BCB7E8 /* ReserverRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE411E3B2BB400BCB7E8 /* ReserverRequestTest.swift */; };
+		678BEE441E3B2D3A00BCB7E8 /* PromocodozError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE431E3B2D3A00BCB7E8 /* PromocodozError.swift */; };
+		678BEE461E3B2E8F00BCB7E8 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BEE451E3B2E8F00BCB7E8 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		678BEE271E3B1C8800BCB7E8 /* PromocodozSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromocodozSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		678BEE2C1E3B1C8800BCB7E8 /* PromocodozSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocodozSDKTests.swift; sourceTree = "<group>"; };
 		678BEE2E1E3B1C8800BCB7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678BEE381E3B1CF500BCB7E8 /* Promocodoz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Promocodoz.swift; path = Source/Promocodoz.swift; sourceTree = "<group>"; };
+		678BEE3B1E3B1DB200BCB7E8 /* PromocodozConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PromocodozConfig.swift; path = Source/PromocodozConfig.swift; sourceTree = "<group>"; };
+		678BEE3D1E3B202F00BCB7E8 /* ReservePromocodeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservePromocodeRequest.swift; path = Source/ReservePromocodeRequest.swift; sourceTree = "<group>"; };
+		678BEE3F1E3B247C00BCB7E8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Constants.swift; sourceTree = "<group>"; };
+		678BEE411E3B2BB400BCB7E8 /* ReserverRequestTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReserverRequestTest.swift; sourceTree = "<group>"; };
+		678BEE431E3B2D3A00BCB7E8 /* PromocodozError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PromocodozError.swift; path = Source/PromocodozError.swift; sourceTree = "<group>"; };
+		678BEE451E3B2E8F00BCB7E8 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Source/Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,7 @@
 		678BEE201E3B1C8800BCB7E8 /* PromocodozSDK */ = {
 			isa = PBXGroup;
 			children = (
+				678BEE3A1E3B1CF900BCB7E8 /* Source */,
 				678BEE211E3B1C8800BCB7E8 /* PromocodozSDK.h */,
 				678BEE221E3B1C8800BCB7E8 /* Info.plist */,
 			);
@@ -82,8 +97,22 @@
 			children = (
 				678BEE2C1E3B1C8800BCB7E8 /* PromocodozSDKTests.swift */,
 				678BEE2E1E3B1C8800BCB7E8 /* Info.plist */,
+				678BEE411E3B2BB400BCB7E8 /* ReserverRequestTest.swift */,
 			);
 			path = PromocodozSDKTests;
+			sourceTree = "<group>";
+		};
+		678BEE3A1E3B1CF900BCB7E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				678BEE3F1E3B247C00BCB7E8 /* Constants.swift */,
+				678BEE381E3B1CF500BCB7E8 /* Promocodoz.swift */,
+				678BEE3B1E3B1DB200BCB7E8 /* PromocodozConfig.swift */,
+				678BEE3D1E3B202F00BCB7E8 /* ReservePromocodeRequest.swift */,
+				678BEE431E3B2D3A00BCB7E8 /* PromocodozError.swift */,
+				678BEE451E3B2E8F00BCB7E8 /* Parser.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +177,7 @@
 				TargetAttributes = {
 					678BEE1D1E3B1C8800BCB7E8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					678BEE261E3B1C8800BCB7E8 = {
@@ -196,6 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678BEE441E3B2D3A00BCB7E8 /* PromocodozError.swift in Sources */,
+				678BEE391E3B1CF500BCB7E8 /* Promocodoz.swift in Sources */,
+				678BEE461E3B2E8F00BCB7E8 /* Parser.swift in Sources */,
+				678BEE3C1E3B1DB200BCB7E8 /* PromocodozConfig.swift in Sources */,
+				678BEE3E1E3B202F00BCB7E8 /* ReservePromocodeRequest.swift in Sources */,
+				678BEE401E3B247C00BCB7E8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				678BEE2D1E3B1C8800BCB7E8 /* PromocodozSDKTests.swift in Sources */,
+				678BEE421E3B2BB400BCB7E8 /* ReserverRequestTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +357,7 @@
 		678BEE331E3B1C8800BCB7E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.promocodoz.PromocodozSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +377,7 @@
 		678BEE341E3B1C8800BCB7E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +396,7 @@
 		678BEE361E3B1C8800BCB7E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PromocodozSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promocodoz.PromocodozSDKTests;
@@ -367,6 +408,7 @@
 		678BEE371E3B1C8800BCB7E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PromocodozSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promocodoz.PromocodozSDKTests;
@@ -394,6 +436,7 @@
 				678BEE341E3B1C8800BCB7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		678BEE351E3B1C8800BCB7E8 /* Build configuration list for PBXNativeTarget "PromocodozSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +445,7 @@
 				678BEE371E3B1C8800BCB7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
